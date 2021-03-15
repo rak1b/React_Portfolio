@@ -254,6 +254,84 @@ html {
   filter: blur(.3rem);
 }
 
+.about_container{
+  height: 100vh;
+  margin-top: 10rem;
+  margin: 0 30rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.about_container h2{
+  color: var(--lightest-slate);
+  font-size: 3rem;
+
+}
+
+.about_container h2 span{
+  color: var(--green);
+  font-size: var(--fz-sm);
+  margin-right: 1rem;
+}
+
+.content_container{
+  display: flex;
+  align-items: center;
+  font-size: var(--fz-xs);
+
+}
+
+.content_container p{
+  color: var(--slate);
+  font-size: var(--fz-sm)
+}
+
+.content_container p span{
+  color: var(--lightest-slate);
+}
+.about_content{
+width: 80%;
+}
+
+.about_ul{
+  margin-top: 1rem;
+  list-style: none;
+  
+}
+
+.li_arrow{
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+
+}
+.about_img{
+  width:30%;
+  height: auto;
+  position: relative;
+}
+
+/* .about_img::before{
+  content:"";
+  position: absolute;
+  background-color:var(--green-tint);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  
+
+} */
+.about_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* for Tablet Medium Devices */
 @media only screen and (max-width: 1100px) {
@@ -276,7 +354,7 @@ html {
     margin: 0 1rem;
   }
   .hero_left {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
   .p_nav {
@@ -288,15 +366,16 @@ html {
   }
 
   .port_hero h2 {
-    font-size:3rem;
+    font-size:3.2rem;
   }
 
   .port_hero h4 {
-    font-size: var(--fz-lg);
+    font-size: 3.2rem;
   }
 
   .port_hero p {
     font-size: var(--fz-xxs);
+    width: 20rem;
   }
 
   .p_menu {
@@ -346,5 +425,18 @@ html {
 
   .resume_btn{
     padding: 1rem 2rem;
+  }
+
+  .about_container{
+    margin: 0 4rem;
+  
+  }
+
+  .content_container{
+    flex-direction: column;
+  }
+
+  .about_img{
+    width: 80%;
   }
 }
