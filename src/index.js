@@ -4,8 +4,9 @@ import PortApp from "./PortApp";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
-  <Router>
+  // <Router>
     <PortApp />
-  </Router>,
+  // </Router>
+  ,
   document.getElementById("root")
 );

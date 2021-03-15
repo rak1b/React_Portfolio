@@ -1,5 +1,11 @@
 const Contact = () =>{
-    return <> Contact </>
+    return (
+        <>
+          <section id="contact" className="full_screen">
+            <div>Contact</div>
+          </section>
+        </>
+      );
 }
 
 

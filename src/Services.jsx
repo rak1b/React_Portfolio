@@ -1,5 +1,11 @@
 const Services = () =>{
-    return <> Services </>
+    return (
+        <>
+          <section id="services" className="full_screen">
+            <div>Services</div>
+          </section>
+        </>
+      );
 }
 
 
