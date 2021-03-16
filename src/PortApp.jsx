@@ -13,7 +13,7 @@ const PortApp = () => {
   const[blur,make_blur] = useState()
 
   const blur_func =(check)=>{
-    if(check===0){
+    if(check===1){
       make_blur('make_blur')
     }
     else{
