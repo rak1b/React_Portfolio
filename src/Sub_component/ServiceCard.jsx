@@ -4,7 +4,7 @@ const ServiceCard = (props) => {
     <>
       <div className="card__container">
         <div className="card__image">
-          <img src={`${process.env.PUBLIC_URL}/public_img/service_images${props.image}`} alt="Not Found" />
+          <img src={`${process.env.PUBLIC_URL}/public_img/service_img/${props.image}`} alt="Not Found" />
         </div>
         <div className="card__header">{props.header}</div>
 
